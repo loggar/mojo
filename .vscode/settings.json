@@ -1,6 +1,3 @@
 {
-    "mojo": {
-        "modularHomePath": "$HOME/.modular"
-    },
     "mojo.modularHomePath": "/Users/charly.lee/.modular"
 }
