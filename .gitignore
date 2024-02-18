@@ -1,0 +1,6 @@
+# build
+/target
+/target.mojo-ex
+
+# os
+.DS_Store
