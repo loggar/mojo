@@ -6,3 +6,6 @@ fn use_defaults():
     # Uses the default value for `exp`
     let z = pow(3)
     print(z)
+
+
+    

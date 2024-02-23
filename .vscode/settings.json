@@ -1,3 +1,7 @@
 {
+    "[mojo]": {
+        "editor.defaultFormatter": "modular-mojotools.vscode-mojo",
+        "editor.formatOnSave": true
+    },
     "mojo.modularHomePath": "/Users/charly.lee/.modular"
 }

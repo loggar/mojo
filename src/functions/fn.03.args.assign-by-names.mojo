@@ -1,5 +1,6 @@
 fn pow(base: Int, exp: Int = 2) -> Int:
-    return base ** exp
+    return base**exp
+
 
 fn use_keywords():
     # Uses keyword argument names (with order reversed)
