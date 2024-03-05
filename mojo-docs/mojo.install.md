@@ -25,6 +25,32 @@ export MODULAR_HOME="$HOME/.modular"
 export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"
 ```
 
+## apt (ubuntu)
+
+```
+curl https://get.modular.com | \
+  MODULAR_AUTH=mut_fe303dc5ca504bc4867a1db20d897fd8 \
+  sh -
+
+
+modualr auth
+# https://docs.modular.com/engine/get-started#1-install-the-max-sdk
+
+# apt install python3.8-venv
+modular install mojo
+```
+
+```
+BASHRC=$( [ -f "$HOME/.bash_profile" ] && echo "$HOME/.bash_profile" || echo "$HOME/.bashrc" )
+echo 'export MODULAR_HOME="/home/loggar/.modular"' >> "$BASHRC"
+echo 'export PATH="/home/loggar/.modular/pkg/packages.modular.com_mojo/bin:$PATH"' >> "$BASHRC"
+source "$BASHRC"
+```
+
+```
+mojo --version
+```
+
 ## REPL
 
 https://docs.modular.com/mojo/manual/get-started/hello-world.html
