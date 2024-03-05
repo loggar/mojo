@@ -1,4 +1,4 @@
-# Mojo install
+# Mojo install and update
 
 ## Mac
 
@@ -25,6 +25,14 @@ export MODULAR_HOME="$HOME/.modular"
 export PATH="$MODULAR_HOME/pkg/packages.modular.com_mojo/bin:$PATH"
 ```
 
+Update:
+
+```
+brew update
+
+brew upgrade modular
+```
+
 ## apt (ubuntu)
 
 ```
@@ -49,6 +57,14 @@ source "$BASHRC"
 
 ```
 mojo --version
+```
+
+Update:
+
+```
+sudo apt update
+
+sudo apt install modular
 ```
 
 ## REPL
