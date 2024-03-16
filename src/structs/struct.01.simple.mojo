@@ -9,7 +9,11 @@ struct MyPair:
     fn dump(self):
         print(self.first, self.second)
 
+    fn get_sum(self) -> Int:
+        return self.first + self.second
+
 
 fn main():
     let mine = MyPair(2, 4)
     mine.dump()
+    print(mine.get_sum())
