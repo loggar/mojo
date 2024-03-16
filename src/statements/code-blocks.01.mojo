@@ -1,9 +1,3 @@
-def loop():
-    for x in range(5):
-        if x % 2 == 0:
-            print(x)
-
-
 def print_line():
     long_text = (
         "This is a long line of text that is a lot easier to read if"
@@ -12,11 +6,11 @@ def print_line():
     print(long_text)
 
 
-def print_hello():
+def print_string_join():
     text = String(",").join("Hello", " world!")
     print(text)
 
 
 def main():
     print_line()
-    print_hello()
+    print_string_join()
