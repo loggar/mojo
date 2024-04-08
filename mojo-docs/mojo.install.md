@@ -2,7 +2,7 @@
 
 ## Mac
 
-https://developer.modular.com/download
+https://developer.modular.com/downmoload
 
 Install the Modular CLI:
 
@@ -15,6 +15,9 @@ Install the Mojo SDK:
 
 ```
 modular install mojo
+
+$ mojo -v
+mojo 24.2.0 (c2427bc5)
 ```
 
 Shell Profile:
