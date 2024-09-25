@@ -20,3 +20,7 @@ fn fun_with_traits[T: SomeTrait](x: T):
 fn use_trait_function():
     var thing = SomeStruct(1)
     fun_with_traits(thing)
+
+
+fn main():
+    use_trait_function()
